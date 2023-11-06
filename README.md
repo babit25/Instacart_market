@@ -94,7 +94,44 @@ c. unique products typically included in a single order.
 
 
 
-with the most occuring number of unique products included in a single order prefered as Typical , 5 Products were typically included in a single order.
+with the most occuring number of unique products included in a single order prefered as Typical. 5 Products were typically included in a single order.
+
+# Customer Segmentation:
+Analysis was  carried out to group customers based on their purchasing behavior for targeted marketing efforts
+  a. different customer segments based on purchase frequency
+  
+  The customers were grouped based on the average days since their prior orders. 
+  between 0 - 8 days as Frequently
+          9 - 20 days as Occassionally
+          above 20 days as Rarely
+
+![Purchase Frquency C](https://github.com/babit25/Instacart_market/assets/108529070/6d275444-ad7f-43c4-ab1b-2bafa9a32ff0)
+
+
+![Purchase Frquency](https://github.com/babit25/Instacart_market/assets/108529070/f1d9d5c7-6c85-4bdb-a95b-e62dc4717aff)
+
+25% of Customers make purchase atleast once in a week with the largest percentage (65%) making atleast a purchase in 2 weeks. the remaining 10% make purchase once in 3 or 4 weeks.
+
+  b. 	How many orders have been placed by each customer
+  
+![Number of orders placed C](https://github.com/babit25/Instacart_market/assets/108529070/142ac534-77f9-4546-8d68-7b71dd0c364f)
+
+
+![Number of orders placed](https://github.com/babit25/Instacart_market/assets/108529070/163e602b-4456-43f6-93dd-720f170f9e58)
+
+The highest number of Order placed by a customer is 100 with the lowest been 4. the average order placed by customers is 17 orders.
+
+# Seasonal Trends Analysis:
+
+
+
+
+
+
+
+
+
+
 
 
 
