@@ -123,11 +123,14 @@ The highest number of Order placed by a customer is 100 with the lowest been 4. 
 
 # Seasonal Trends Analysis:
 
+To Identify seasonal patterns in customer behavior and product sales
+  a. The distribution of orders placed on different days of the week
 
 
+![day of week orders](https://github.com/babit25/Instacart_market/assets/108529070/e3d03f7d-b345-418a-900f-db63c99e1a08)
 
 
-
+Sunday is the day with highest orders placed with 600,905 orders closely followed  by monday with 587,478 orders. Tuesday completes the Top 3 with 467,260
 
 
 
