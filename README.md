@@ -70,13 +70,31 @@ from Preliminary Analysis , the number of  customers,products and orders are 206
 
 # Market Basket Analysis:
 This Analysis was carried out in order to  Identify frequently co-occurring products in orders to improve store layout and marketing strategies.
-a. Top 10 product pairs that are most frequently purchased together
+  a. Top 10 product pairs that are most frequently purchased together
 
 ![Top 10 pairs](https://github.com/babit25/Instacart_market/assets/108529070/5fab2217-7d23-4dba-9aca-3845476cd0a9)
 
 
-![Q1 Table PBi](https://github.com/babit25/Instacart_market/assets/108529070/8536b85f-99de-443d-8dc1-d55678ef3ae9)
+![Top 10 Bought Together](https://github.com/babit25/Instacart_market/assets/108529070/f8b97471-6b84-4f77-85aa-ca64fb6e9a25)
 
+Banana was the constant and seems to be popular has it appeared in 9 of the top 10 products bought together.
+
+ b. Top 5 products that are most commonly added to the cart first
+
+ ![Top 5 added_to_cart](https://github.com/babit25/Instacart_market/assets/108529070/c3a1c6cf-978f-478d-9e26-ef8de4a0f001)
+
+Banana was mostly added to the cart first with 472,565 of the orders with Bag of Organic Bananas and Organic strawberrys  second  and third respectively with 379,450 and 264,283 orders. Organic Baby Spinach and Organic Haas Avocado completes the Top 5
+
+c. unique products typically included in a single order.
+
+![Typical U products](https://github.com/babit25/Instacart_market/assets/108529070/974df860-3f3e-4a96-9c32-caf7e7c35147)
+
+
+![Typical products](https://github.com/babit25/Instacart_market/assets/108529070/955e678c-f2e4-424b-bdb6-86daca21a07b)
+
+
+
+with the most occuring number of unique products included in a single order prefered as Typical , 5 Products were typically included in a single order.
 
 
 
