@@ -9,10 +9,15 @@ Instacart is an American delivery company based in San Francisco that operates a
 
 The company aims to explore and analyze customer shopping behavior using transactional data from their platform. They have provided the dataset which provides a rich source of information that can be used to derive valuable insights for optimizing operations and enhancing customer experiences.
 
-The three methods that I used to analyse this datasets are:
+
+The Three methods that I used to analyse this datasets are:
+
 A. Market Basket Analysis
+
 B. Customer Segmentation
+
 C. Seasonal Trends Analysis (STA)
+
 
 # Dataset
 
@@ -70,22 +75,24 @@ from Preliminary Analysis , the number of  customers,products and orders are 206
 
 # Market Basket Analysis:
 This Analysis was carried out in order to  Identify frequently co-occurring products in orders to improve store layout and marketing strategies.
-  a. Top 10 product pairs that are most frequently purchased together
+
+**_  a. Top 10 product pairs that are most frequently purchased together_**
 
 ![Top 10 pairs](https://github.com/babit25/Instacart_market/assets/108529070/5fab2217-7d23-4dba-9aca-3845476cd0a9)
 
 
 ![Top 10 Bought Together](https://github.com/babit25/Instacart_market/assets/108529070/f8b97471-6b84-4f77-85aa-ca64fb6e9a25)
 
-Banana was the constant and seems to be popular has it appeared in 9 of the top 10 products bought together.
+Banana( or Organic Bananas) seems to be popular among customers as  it constantly appeared in 9 of the top 10 products bought together.
 
- b. Top 5 products that are most commonly added to the cart first
+
+_** b. Top 5 products that are most commonly added to the cart first**_
 
  ![Top 5 added_to_cart](https://github.com/babit25/Instacart_market/assets/108529070/c3a1c6cf-978f-478d-9e26-ef8de4a0f001)
 
-Banana was mostly added to the cart first with 472,565 of the orders with Bag of Organic Bananas and Organic strawberrys  second  and third respectively with 379,450 and 264,283 orders. Organic Baby Spinach and Organic Haas Avocado completes the Top 5
+Banana was mostly added to the cart first with 472,565 of the orders. Bag of Organic Bananas and Organic strawberrys were  second  and third respectively with 379,450 and 264,283 orders. Organic Baby Spinach and Organic Haas Avocado completes the Top 5
 
-c. unique products typically included in a single order.
+_**c. unique products typically included in a single order.**_
 
 ![Typical U products](https://github.com/babit25/Instacart_market/assets/108529070/974df860-3f3e-4a96-9c32-caf7e7c35147)
 
@@ -94,15 +101,19 @@ c. unique products typically included in a single order.
 
 
 
-with the most occuring number of unique products included in a single order prefered as Typical. 5 Products were typically included in a single order.
+with the most occuring number of unique products included in a single order prefered as the Typical Value. 5 Products were typically included in a single order.
 
 # Customer Segmentation:
 Analysis was  carried out to group customers based on their purchasing behavior for targeted marketing efforts
-  a. different customer segments based on purchase frequency
-  
+
+_ ** a. different customer segments based on purchase frequency **_
+
   The customers were grouped based on the average days since their prior orders. 
+  
   between 0 - 8 days as Frequently
+  
           9 - 20 days as Occassionally
+          
           above 20 days as Rarely
 
 ![Purchase Frquency C](https://github.com/babit25/Instacart_market/assets/108529070/6d275444-ad7f-43c4-ab1b-2bafa9a32ff0)
@@ -112,7 +123,7 @@ Analysis was  carried out to group customers based on their purchasing behavior 
 
 25% of Customers make purchase atleast once in a week with the largest percentage (65%) making atleast a purchase in 2 weeks. the remaining 10% make purchase once in 3 or 4 weeks.
 
-  b. 	How many orders have been placed by each customer
+  _**b. 	How many orders have been placed by each customer**_
   
 ![Number of orders placed C](https://github.com/babit25/Instacart_market/assets/108529070/142ac534-77f9-4546-8d68-7b71dd0c364f)
 
@@ -124,13 +135,29 @@ The highest number of Order placed by a customer is 100 with the lowest been 4. 
 # Seasonal Trends Analysis:
 
 To Identify seasonal patterns in customer behavior and product sales
-  a. The distribution of orders placed on different days of the week
+
+_ ** a. The distribution of orders placed on different days of the week**_
 
 
 ![day of week orders](https://github.com/babit25/Instacart_market/assets/108529070/e3d03f7d-b345-418a-900f-db63c99e1a08)
 
 
 Sunday is the day with highest orders placed with 600,905 orders closely followed  by monday with 587,478 orders. Tuesday completes the Top 3 with 467,260
+
+_**  b. The distribution of orders placed on different days of the week**_
+  
+![time of the day](https://github.com/babit25/Instacart_market/assets/108529070/d36008fb-7b02-402b-99b1-1c4b217eb99b)
+
+Only few orders were placed between 12 am and 5:00 am as the order placed begins to increase steadily until it peaks at 10 am with 288,418 orders.the orders stays between a range till 4 pm before it begins to reduce steadily.
+
+# DASHBOARD
+
+![DASHBOARD](https://github.com/babit25/Instacart_market/assets/108529070/14fcc96e-9505-4fd5-b561-4512e219e2b8)
+
+# INSIGHTS AND RECOMMENDATION
+
+1.
+
 
 
 
