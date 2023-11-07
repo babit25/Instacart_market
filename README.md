@@ -1,7 +1,8 @@
-# instacart_market
+# Instacart_market
 
 ![LOGO](https://github.com/babit25/Instacart_market/assets/108529070/832318b9-3d47-489b-9cc5-cf785cfd6175)
 
+[Image credit](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fshopping-cart_263142&psig=AOvVaw2z_Jzz0Gmv1HHiy0mqdhzL&ust=1698771013601000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCLD_paidnoIDFQAAAAAdAAAAABAE)
 
 # Introduction
 
@@ -9,6 +10,7 @@ Instacart is an American delivery company based in San Francisco that operates a
 
 The company aims to explore and analyze customer shopping behavior using transactional data from their platform. They have provided the dataset which provides a rich source of information that can be used to derive valuable insights for optimizing operations and enhancing customer experiences.
 
+ 
 
 The Three methods that I used to analyse this datasets are:
 
@@ -19,7 +21,7 @@ B. Customer Segmentation
 C. Seasonal Trends Analysis (STA)
 
 
-# Dataset
+# The Dataset
 
 The Datasets was made available with the following summary
 
@@ -50,7 +52,7 @@ The Datasets was made available with the following summary
 ● Case Statement
 
 
-# Data Cleaning and Initial Analysis
+# Data Cleaning and Preliminary Analysis
 
 The orders table contains some NULL Values in the **days_since_prior_order** column which was for first time orders. I changed the decimal places of the figures in the 	**days_since_prior_order** column to 0 and changed the datatype to integer.
 
@@ -86,7 +88,7 @@ This Analysis was carried out in order to  Identify frequently co-occurring prod
 Banana( or Organic Bananas) seems to be popular among customers as  it constantly appeared in 9 of the top 10 products bought together.
 
 
-_** b. Top 5 products that are most commonly added to the cart first**_
+_**b. Top 5 products that are most commonly added to the cart first**_
 
  ![Top 5 added_to_cart](https://github.com/babit25/Instacart_market/assets/108529070/c3a1c6cf-978f-478d-9e26-ef8de4a0f001)
 
@@ -106,11 +108,12 @@ with the most occuring number of unique products included in a single order pref
 # Customer Segmentation:
 Analysis was  carried out to group customers based on their purchasing behavior for targeted marketing efforts
 
-_ ** a. different customer segments based on purchase frequency **_
+**_ a. different customer segments based on purchase frequency _**
 
   The customers were grouped based on the average days since their prior orders. 
   
-  between 0 - 8 days as Frequently
+  between
+          0 - 8 days as Frequently
   
           9 - 20 days as Occassionally
           
@@ -136,7 +139,7 @@ The highest number of Order placed by a customer is 100 with the lowest been 4. 
 
 To Identify seasonal patterns in customer behavior and product sales
 
-_ ** a. The distribution of orders placed on different days of the week**_
+. _**a. The distribution of orders placed on different days of the week**_
 
 
 ![day of week orders](https://github.com/babit25/Instacart_market/assets/108529070/e3d03f7d-b345-418a-900f-db63c99e1a08)
@@ -144,19 +147,35 @@ _ ** a. The distribution of orders placed on different days of the week**_
 
 Sunday is the day with highest orders placed with 600,905 orders closely followed  by monday with 587,478 orders. Tuesday completes the Top 3 with 467,260
 
-_**  b. The distribution of orders placed on different days of the week**_
+**_ b. The distribution of orders placed on different days of the week_**
   
 ![time of the day](https://github.com/babit25/Instacart_market/assets/108529070/d36008fb-7b02-402b-99b1-1c4b217eb99b)
 
 Only few orders were placed between 12 am and 5:00 am as the order placed begins to increase steadily until it peaks at 10 am with 288,418 orders.the orders stays between a range till 4 pm before it begins to reduce steadily.
 
-# DASHBOARD
+# Visualize
 
 ![DASHBOARD](https://github.com/babit25/Instacart_market/assets/108529070/14fcc96e-9505-4fd5-b561-4512e219e2b8)
 
 # INSIGHTS AND RECOMMENDATION
 
-1.
+1. Bananas (Conventional or Organic) is customer's favourite and most popular product among customers. it must always be in stock to avoid customer displeasure.
+   
+2. Customers who  rarely place orders (more than 20 days) should be Investigated to find reasons why they do not make Frequent purchases.
+
+3. Sundays and Mondays are the days when most orders are placed with the busiest time between 10:00 am to 3:00pm. This period should be targetted for promotions and adverts.
+
+# DATA LIMITATION
+1.There was no date data to  aggregate at the day, week, month, quarter, and year level.
+
+2. There was no information on payment made by customers to which made it impossible to segment customers by payments.
+
+# CONCLUSION
+
+Instacart Market is currently on the right track and currently performing well. With over 200k customers and over 3.4 million orders placed, the company has shown tremoendous growth and can still improve. The recommendations should be implemented to help the company futher in its growth.
+
+
+THANK YOU
 
 
 
